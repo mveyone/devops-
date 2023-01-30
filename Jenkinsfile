@@ -10,7 +10,7 @@ node{
         //  sh 'scp /var/lib/jenkins/workspace/devops-aws/* ubuntu@10.0.2.81:/home/ubuntu '
         //  sh 'ssh -o StrictHostKeyChecking=no ubuntu@10.0.2.81  unzip -o devops-project-1.zip '
          sh 'ssh -o StrictHostKeyChecking=no ubuntu@10.0.2.81  git clone https://github.com/mveyone/devops-.git '
-         sh 'ssh -o StrictHostKeyChecking=no ubuntu@10.0.2.81 cd /home/ubuntu/devops- '  
+        //  sh 'ssh -o StrictHostKeyChecking=no ubuntu@10.0.2.81 cd /home/ubuntu/devops- '  
       }
     }
     //  stage('build docker image'){
